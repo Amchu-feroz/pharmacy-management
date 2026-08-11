@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import MedicineForm from "../components/MedicineForm";
-import StockTable from "../components/StockTable";
-import { getMedicines, addMedicine, deleteMedicine } from "../services/api";
+import MedicineForm from "./MedicineForm";
+import StockTable from "./StockTable";
+import { getMedicines, addMedicine, deleteMedicine } from "./api";
 
 function Inventory() {
   const [medicines, setMedicines] = useState([]);

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getMedicines } from "../services/api";
+import { getMedicines } from "./api";
 
 function Sales() {
   const [medicines, setMedicines] = useState([]);
